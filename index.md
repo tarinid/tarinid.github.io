@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-You can use the [editor on GitHub](https://github.com/tarinid/tarinid.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: red;
+  color: white;
+}
 
-### Markdown
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
 
-```markdown
-Syntax highlighted code block
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+/* Change color on hover */
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
 
-### Jekyll Themes
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background:red;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tarinid/tarinid.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+  
+}
+</style>
+</head>
+<body>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div class="header">
+  <h1>TEDx
+       Youth@JNS</h1>
+  <p>x=independantly organised TED event</p>
+</div>
+
+<div class="navbar">
+  <a href="#">HOME</a>
+  <a href="#">ABOUT</a>
+  <a href="#">BLOG</a>
+  <a href="#" class="right">GET TICKETS</a>
+</div>
+  <div class="main">
+
+    <h2>"COME AND GET ILLUMINATED"</h2>
+    <h5>TEDxYouth@JNS</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>We're ecstatic to announce that TEDxYouth@JNS is growing, and is now in its second edition! Created in the spirit of TED's mission, 'Ideas Worth Spreading,' and our school motto, 'Knowledge is Strength Supreme', TEDxYouth@JNS exemplifies the conglomeration of intellect-stimulating and groundbreaking ideas. TEDxYouth@JNS will be held on the 5th of July, 2019, at Jamnabai Narsee School. So get ready to immerse yourself into a melting pot of a plethora of ideas and insights that will leave you inspired to challenge conventional ideas and make a difference!</p>
+   </div>
+</div>
+
+<div class="footer">
+  <h2>This independently organized TEDx event is operated under license from TED</h2>
+</div>
+
+</body>
+</html>
